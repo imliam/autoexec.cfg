@@ -78,4 +78,4 @@ There are some other useful utilities that can be installed to enhance the gamep
 - [Vibrance GUI](https://vibrancegui.com/) - Makes the game more vibrant and colourful
 - [Simple Radar](http://simpleradar.com/) - Updated, clearer radar images
 - [Source Live Audio Mixer](http://slam.flankers.net/) - Play audio files over voice chat
-- [AutoHotKey Scripts](blob/master/csgo.ahk) - Random scripts, not meant for playing in public games
+- [AutoHotKey Scripts](csgo.ahk) - Random scripts, not meant for playing in public games
