@@ -1,5 +1,7 @@
 # Counter Strike: Global Offensive Settings
 
+These are my personal settings and configuration for playing CS:GO with - they are not designed to suit everyone, so take and tweak what you need.
+
 <!-- TOC -->
 
 - [Counter Strike: Global Offensive Settings](#counter-strike-global-offensive-settings)
@@ -9,8 +11,6 @@
     - [Other utilities](#other-utilities)
 
 <!-- /TOC -->
-
-These are my personal settings and configuration for playing CS:GO with - they are not designed to suit everyone, so take and tweak what you need.
 
 These settings are deliberately not enough for a complete setup - they don't affect anything that will be different on different hardware configurations, such as video settings, mouse sensitivity, etc. as they need to be tweaked system-to-system.
 
