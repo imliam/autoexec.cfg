@@ -26,25 +26,27 @@ SetTitleMatchMode 2
     ;
     ; Bunnyhop by holding spacebar
     ;
+    bhop = true
+
     *~space::
-        if bhop = true
+        if (bhop = true) {
             Loop
             {
-                GetKeyState,state,space,P
+                GetKeyState, state, space, P
                 if state = U
                 break
 
                 Send,{space}
                 Sleep,20
             }
-        return
-
-    bhop = true
+        }
+    return
 
     left::
-        if (bhop = "true")
+        if (bhop = "true") {
             bhop = false
-        else
+        } else {
             bhop = true
-        return
+        }
+    return
 }
