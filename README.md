@@ -74,7 +74,8 @@ mklink /H "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global O
 
 There are some other useful utilities that can be installed to enhance the gameplay experience:
 
-- Banana Gaming's [Text Color Mod](https://bananagaming.tv/textcolormod)
-- [Vibrance GUI](https://vibrancegui.com/)
-- [Simple Radar](http://simpleradar.com/)
-- [Source Live Audio Mixer](http://slam.flankers.net/)
+- [Text Color Mod](https://bananagaming.tv/textcolormod) - Improves text in the game to make it more contextual
+- [Vibrance GUI](https://vibrancegui.com/) - Makes the game more vibrant and colourful
+- [Simple Radar](http://simpleradar.com/) - Updated, clearer radar images
+- [Source Live Audio Mixer](http://slam.flankers.net/) - Play audio files over voice chat
+- [AutoHotKey Scripts](blob/master/csgo.ahk) - Random scripts, not meant for playing in public games
