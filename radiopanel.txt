@@ -66,8 +66,8 @@
 				"Start all bots"
 				{
 					"hotkey"	"8"
-					"label"	"Stop all bots"
-					"cmd"	"bot_stop 1"
+					"label"	"Start all bots"
+					"cmd"	"bot_stop 0"
 				}
 
 				"Stop all bots"
