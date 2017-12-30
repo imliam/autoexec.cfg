@@ -32,14 +32,14 @@ You can add any of the following options to the input box.
 
 Autoexec is a method of running files that contain custom Source Engine and CS:GO commands upon the game's launch. This allows for additional keys to be bound and commands to be created that can help perform complex tasks.
 
-To set up the `autoexec.cfg` files in this repository, you can copy them or create a hard link to your CS:GO user profile setting directory, which usually belongs in `C:\Program Files (x86)\Steam\userdata\{steam_user_id}\730\local\cfg`
+To set up the `autoexec.cfg` files in this repository, you can copy them or create links to your CS:GO user profile setting directory, which usually belongs in `C:\Program Files (x86)\Steam\userdata\{steam_user_id}\730\local\cfg`
 
-To create hard links for the configuration, execute the following commands from the current directory in an elevated command prompt.
+To create links for the configuration, execute the following commands from the current directory in an elevated command prompt.
 
 ```bat
 mklink /H "C:\Program Files (x86)\Steam\userdata\{steam_user_id}\730\local\cfg\autoexec.cfg" "autoexec.cfg"
 
-mklink /H "C:\Program Files (x86)\Steam\userdata\{steam_user_id}\730\local\cfg\modules\" "modules\"
+mklink /J "C:\Program Files (x86)\Steam\userdata\{steam_user_id}\730\local\cfg\modules\" "modules\"
 ```
 
 *Note: Windows can not create links to places on two different drives, so if this repository and CS:GO are installed to different drives, consider just copying the files from one place to the other.*
@@ -50,7 +50,7 @@ The three radio command menus that are included by default mostly go unused - on
 
 The radio commands included here are based off of the [Improved Radio Mod](https://bananagaming.tv/improvedradiomod) with some minor tweaks. They change the radio menus so one is used for controlling bots in offline games, another for toggling various cheats and settings, and leaves the last for enhanced communication.
 
-To install, copy or symlink the `radiopanel.txt` file to your `csgo\resource\ui` directory.
+To install, copy or link the `radiopanel.txt` file to your `csgo\resource\ui` directory.
 
 ```bat
 mklink /H "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\resource\ui\radiopanel.txt" "radiopanel.txt"
