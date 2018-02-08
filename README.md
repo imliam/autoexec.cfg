@@ -26,7 +26,7 @@ You can add any of the following options to the input box.
 - `-nojoy` - Disables joystick controls, freeing up some unused memory
 - `-tickrate 128` - Set local servers to run at 128 ticks instead of 64
 - `+exec autoexec` - Load the `autoexec.cfg` configuration file (see below "autoexec.cfg" section)
-- `-language -bananagaming` - Loads the "text color mod" (see "Other utilities" section)
+- `-language bananagaming` - Loads the "text color mod" (see "Other utilities" section)
 
 ## autoexec.cfg
 
